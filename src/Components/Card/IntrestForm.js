@@ -2,7 +2,7 @@ import {useState} from 'react'
 import "./IntrestForm.css"
 
 export default function IntrestForm(props){
-    const [currentSavings, setCurrentSavings] = useState("10001");
+    const [currentSavings, setCurrentSavings] = useState("10000");
     const [yearlySavings, setYearlySavings] = useState("1200");
     const [expectedInterest, setExpectedInterest] = useState("7");
     const [investmentDuration, setInvestmentDuration] = useState("10");
